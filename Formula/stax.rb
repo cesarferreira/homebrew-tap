@@ -7,16 +7,16 @@ class Stax < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cesarferreira/stax/releases/download/v0.2.1/stax-aarch64-apple-darwin.tar.gz"
-      sha256 "f0c020f488e20baaf186f93cfe7bb07f52704627c9785b831b556d6cf109a423"
+      sha256 "edbb2aacd02c7be82a79ed1b8a81b9679eef44db7a3621bb89f5a047ad122eec"
     else
       url "https://github.com/cesarferreira/stax/releases/download/v0.2.1/stax-x86_64-apple-darwin.tar.gz"
-      sha256 "f5572a3b3058d5654f1262fef042d464079d6143e1b0bb80649768b2ceced934"
+      sha256 "59e33cc66156d3209a9df4596857c25da362e9b6620f15c2567a0823ea9d6aa8"
     end
   end
 
   on_linux do
     url "https://github.com/cesarferreira/stax/releases/download/v0.2.1/stax-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "3d97a57ded1b54174c1425268395d1e4eec7130142dac12bc32713d70c6601b1"
+    sha256 "9fe520ba8a0f179b58703ca25ecf9f5095b8fb0bc30fbd3c5c8c541beacee0e5"
   end
 
   def install
