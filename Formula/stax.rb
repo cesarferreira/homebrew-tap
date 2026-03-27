@@ -15,8 +15,13 @@ class Stax < Formula
   end
 
   on_linux do
-    url "https://github.com/cesarferreira/stax/releases/download/v0.37.0/stax-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "d6533eb5a55566d658ab1e07eb3ec050e776cba4ca186acae2e2950987623638"
+    if Hardware::CPU.arm?
+      url "https://github.com/cesarferreira/stax/releases/download/v0.37.0/stax-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    else
+      url "https://github.com/cesarferreira/stax/releases/download/v0.37.0/stax-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d6533eb5a55566d658ab1e07eb3ec050e776cba4ca186acae2e2950987623638"
+    end
   end
 
   def install
@@ -27,4 +32,3 @@ class Stax < Formula
     system "#{bin}/stax", "--help"
   end
 end
-
