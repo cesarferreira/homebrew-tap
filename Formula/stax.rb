@@ -1,26 +1,26 @@
 class Stax < Formula
   desc "Fast stacked Git branches and PRs"
   homepage "https://github.com/cesarferreira/stax"
-  version "0.104.6"
+  version "0.104.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cesarferreira/stax/releases/download/v0.104.6/stax-aarch64-apple-darwin.tar.gz"
-      sha256 "edd4e0548a6386248e388e3d7f5bf380ffd4aa248cc1b992d1100533a9b99b00"
+      url "https://github.com/cesarferreira/stax/releases/download/v0.104.7/stax-aarch64-apple-darwin.tar.gz"
+      sha256 "4d98a49134f453841af1edbc904182db10cd1a4a2dd632f01241115114736f43"
     else
-      url "https://github.com/cesarferreira/stax/releases/download/v0.104.6/stax-x86_64-apple-darwin.tar.gz"
-      sha256 "755989f5db1ba5d0d452791a81eea24e6d371fb71e57f18e469b5e8aab4084ec"
+      url "https://github.com/cesarferreira/stax/releases/download/v0.104.7/stax-x86_64-apple-darwin.tar.gz"
+      sha256 "3c5c87c56a28dc055a3ef9ef7fcd742aa8294bae3371afcfdce9e2fa2cf5f7c2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cesarferreira/stax/releases/download/v0.104.6/stax-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d3da4f7a6125dcff240f3be313d68bc66203ad008e56f86eaead061d3e900e0e"
+      url "https://github.com/cesarferreira/stax/releases/download/v0.104.7/stax-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "47abecf4f3f75fc5e246b3ea53f2b7d184b4c97019a978fada2390cb89c577ca"
     else
-      url "https://github.com/cesarferreira/stax/releases/download/v0.104.6/stax-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a0d8100ed5de1781d7ce956950567cc3e34712908c43118b6c679910514a5c15"
+      url "https://github.com/cesarferreira/stax/releases/download/v0.104.7/stax-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b29521a87081469eb0ef46109c584bf1fcb422b95083bca19738fda0c8530e29"
     end
   end
 
