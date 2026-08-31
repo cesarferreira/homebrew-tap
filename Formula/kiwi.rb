@@ -5,11 +5,11 @@ class Kiwi < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cesarferreira/kiwi/releases/download/v0.3.0/kiwi-aarch64-apple-darwin.tar.gz"
-      sha256 "6c995b8da80abf4bdfbbbd09a0fd7bc21ab2f57acb0c1a283b449e9962a90cb2"
+      url "https://github.com/cesarferreira/kiwi/releases/download/v0.3.1/kiwi-aarch64-apple-darwin.tar.gz"
+      sha256 "30363fda0bba196eea0397a0067b533dbd49c0bcd65ac77e6b89ee85f22d9647"
     else
-      url "https://github.com/cesarferreira/kiwi/releases/download/v0.3.0/kiwi-x86_64-apple-darwin.tar.gz"
-      sha256 "954ba81e83ceacb054829008c747c1096dcaeb4dcee0802fa0a2282ffc16e291"
+      url "https://github.com/cesarferreira/kiwi/releases/download/v0.3.1/kiwi-x86_64-apple-darwin.tar.gz"
+      sha256 "2825e35eafdf85c7d665065c227951edf65314d3bafcb194d3fd330665a579fb"
     end
   end
 
