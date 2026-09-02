@@ -1,17 +1,17 @@
 class Snap < Formula
   desc "Fast, minimal macOS window manipulation from the terminal"
   homepage "https://github.com/cesarferreira/snap"
-  version "0.3.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cesarferreira/snap/releases/download/v0.3.0/snap-aarch64-apple-darwin.tar.gz"
-      sha256 "b73c2dee3bcc82008f8e6ee1e7a32efcc70bcf4b80605b477968756d3c10d2eb"
+      url "https://github.com/cesarferreira/snap/releases/download/v0.5.0/snap-aarch64-apple-darwin.tar.gz"
+      sha256 "aeae9db454e3373b73813fcbba25669d6cfb1a1a98bd56d8be0719bb51fbe3c3"
     end
     on_intel do
-      url "https://github.com/cesarferreira/snap/releases/download/v0.3.0/snap-x86_64-apple-darwin.tar.gz"
-      sha256 "1f3fa8279da67782b824af73ed04305d3b38bc42bb715cdd1babdf3e691d57a5"
+      url "https://github.com/cesarferreira/snap/releases/download/v0.5.0/snap-x86_64-apple-darwin.tar.gz"
+      sha256 "43b8d95619357159f263e6fde90cc34311fe8c0cc27df3308558a924acf8831e"
     end
   end
 
